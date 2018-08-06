@@ -1,0 +1,1561 @@
+November 18, 2016
+
+Hello
+4:36 PM
+Lee, Kevin
+
+Hi
+4:41 PM
+Tran, Nhan
+
+hi
+4:41 PM
+Shaw, Kathy
+
+Hello - we are still waiting for PRU and QCOM to finish their processes
+4:42 PM
+Lee, Kevin
+
+any ETA?
+4:57 PM
+Buch, Rita
+
+we don't have one
+4:57 PM
+oh ok
+4:58 PM
+Buch, Rita
+
+PRU is on target to complete at 5 PM
+this is per email from Vinod
+4:58 PM
+ok
+4:58 PM
+Buch, Rita
+
+QCOM might go till 6 PM
+4:58 PM
+*_*
+JP really needs to work on fast track
+4:59 PM
+Buch, Rita
+
+:)
+4:59 PM
+Paramasivam, Jaya Prakash
+
+PRU is done
+just wait for QCOM
+5:02 PM
+Shaw, Kathy
+
+Kathy is spreading rumor that QCOM is done and they i showed some excitement, she shot it down that it is not official :(
+5:03 PM
+Buch, Rita
+
+lol
+happy hour too soon
+5:07 PM
+Tran, Nhan
+
+We can start the CAT roll now
+5:37 PM
+Lee, Kevin
+
+ok getting the packages ready
+will update back once CAT roll start
+5:40 PM
+Tran, Nhan
+
+OK, thanks
+5:40 PM
+Lee, Kevin
+
+Kathy, can we disable PC job now? QCOM runs pc?
+5:49 PM
+Paramasivam, Jaya Prakash
+
+ok starting cat roll
+will update back once done
+5:58 PM
+Tran, Nhan
+CAT is done
+please verify CAT
+6:17 PM
+Tran, Nhan
+
+ok
+6:19 PM
+Narendran, Maria Francis Shyam
+
+No
+6:19 PM
+Shaw, Kathy
+untill DB apply to CAT, don't start
+6:20 PM
+Shaw, Kathy
+
+you want to put instance down?
+CAT*
+6:21 PM
+Tran, Nhan
+
+no, it's OK to leave it up, but QA can't start until DB apply
+Qualcomm is done
+6:21 PM
+Shaw, Kathy
+
+ok
+6:22 PM
+Tran, Nhan
+
+Jp, please apply the DB
+6:22 PM
+Shaw, Kathy
+
+ok
+starting now
+6:22 PM
+Paramasivam, Jaya Prakash
+
+HURRY
+6:23 PM
+Buch, Rita
+where is the roll coordinator?
+6:25 PM
+Buch, Rita
+
+Coordinating
+6:27 PM
+Lee, Kevin
+
+JP, how long for DB roll?
+6:29 PM
+Ramachandran, Samba
+
+~2 hours
+6:30 PM
+Paramasivam, Jaya Prakash
+
+Any big changes?
+6:30 PM
+Ramachandran, Samba
+
+no Samba, it is regular one
+6:31 PM
+Paramasivam, Jaya Prakash
+
+why does it take 2 hrs?
+6:31 PM
+Ramachandran, Samba
+
+no large migration
+6:31 PM
+Paramasivam, Jaya Prakash
+
+shouldn't it be quick?
+report meta?
+6:31 PM
+Ramachandran, Samba
+
+we have added 2 more NLDB this time
+7 dbs to run
+we are running in parallel
+6:32 PM
+Paramasivam, Jaya Prakash
+
+Would like to review with you & Granger, the Sequence of Events & time next week - see if there's scope for optimization
+6:33 PM
+Ramachandran, Samba
+
+yes, we can do
+6:33 PM
+Paramasivam, Jaya Prakash
+
+DB Roll almost done, validation in progress
+7:38 PM
+Paramasivam, Jaya Prakash
+
+Yeah!!!!
+7:38 PM
+Lee, Kevin
+:)
+7:39 PM
+Lee, Kevin
+
+from 2 hrs expected down to 1 hr. (^-^)b
+7:41 PM
+Gangone, Vinod
+
+completed.
+7:41 PM
+Paramasivam, Jaya Prakash
+
+validated prod tms logs too - no errors noticed
+7:42 PM
+Payyalore Venkatachalam, Vidhya Meenakshi
+
+1h11m this time
+7:42 PM
+Paramasivam, Jaya Prakash
+
+So, can we start the app roll?
+7:42 PM
+Lee, Kevin
+
+yes
+7:42 PM
+Paramasivam, Jaya Prakash
+
+Nhan, we can start the app roll
+7:43 PM
+Lee, Kevin
+
+DB roll testing?
+7:43 PM
+Srinivasan, Chandrasekar
+
+yes for testing only
+7:44 PM
+Paramasivam, Jaya Prakash
+
+Nhan, please hold off on the app roll until QA can verify the DB roll
+7:45 PM
+Lee, Kevin
+
+ok
+I need more time too, I need to help boss Dhanesh on another PRD issue
+7:48 PM
+Tran, Nhan
+
+OK, we need QA to verify the DB anyway
+7:49 PM
+Lee, Kevin
+
+WOO report is failing.
+Error "No Such beanid woocommonprocessor exists in the processorFactory.xml"
+8:05 PM
+Srinivasan, Chandrasekar
+
+We are looking into it
+8:08 PM
+Elangovan, Barkavi
+
+One of the GATEKEEPER entry in DB had an old expire date..We updated it and Qa is trying now
+8:13 PM
+Kumar, Sanjeev
+
+WOO Working fine now
+8:14 PM
+Narendran, Maria Francis Shyam
+DB Sanity testing completed
+8:15 PM
+Narendran, Maria Francis Shyam
+
+that was realy fast track- JP please not for future:)
+8:15 PM
+Buch, Rita
+
+Nhan, we are ready to start the app roll now
+8:15 PM
+Lee, Kevin
+
+HI Nhan, Kindly update the Roll portal once the app is rolled
+http://10.21.82.102/productionroll/index.php?Rolldate=2016-11-18&stream=All
+8:20 PM
+Narendran, Maria Francis Shyam
+
+ok
+8:21 PM
+Tran, Nhan
+we ready to kill w48m3 tms PRD?
+8:22 PM
+Tran, Nhan
+
+Go ahead and issue the stop
+8:23 PM
+Lee, Kevin
+
+stopping
+8:26 PM
+Tran, Nhan
+waiting on app35w48m3 and app7w48m3
+8:30 PM
+Tran, Nhan
+
+there is a stale thread running on app35w48m3 and app7w48m3. Kindly issue second stop on it
+8:32 PM
+Varadarajan, Selvam
+
+ok
+8:34 PM
+Tran, Nhan
+
+can we switch w52m3 to NonQA ?
+8:42 PM
+Varadarajan, Selvam
+
+done
+8:43 PM
+Tran, Nhan
+
+Has the first set been rolled?
+9:02 PM
+Lee, Kevin
+
+not yet
+still rolling
+9:03 PM
+Tran, Nhan
+
+OK
+9:03 PM
+Lee, Kevin
+
+who support this package - eeTaxServer ?
+9:13 PM
+Tran, Nhan
+
+what is the issue?
+9:13 PM
+Varadarajan, Selvam
+
+any reason why UAT using a newer version?
+/etrade/etc/packages.linux.intel:uat:ollcp:s2:espsvc:eeTaxServer:20161118.0-0:::edna
+9:14 PM
+Tran, Nhan
+
+and server s2_webapp_esp_root is not coming up after the roll for prd-ollcp-s2-espsvc instance
+we probably need app eng
+you guys know who from app eng support this roll?
+9:16 PM
+Tran, Nhan
+
+Selvam, do u think we need Veera?
+9:17 PM
+Shaw, Kathy
+
+let me call Veera then
+9:17 PM
+Tran, Nhan
+
+Selvam, can u take a look first to see if we nee Veera
+9:18 PM
+Shaw, Kathy
+
+Its stock plan node, we need to check with app eng. Nhan kindly call veera
+9:18 PM
+Varadarajan, Selvam
+
+he's coming online
+9:19 PM
+Tran, Nhan
+
+s2_webapp_esp_root - 0 4 4 0 NG
+====== ======= ======= ======= ======= ===== ======
+Total - 8 12 12 0 NG
+for espsvc
+9:22 PM
+Tran, Nhan
+
+lm se
+what node?
+9:22 PM
+Chandu, Veera
+
+all set 1 nodes for espsvc
+you can check tp119w48m3
+9:22 PM
+Tran, Nhan
+
+what pkg is s2_webapp_esp_root using ?
+9:27 PM
+Sira, Amardeep
+
+s2_webapp_esp = 20161115.0-0
+9:27 PM
+Tran, Nhan
+
+Are you able to share any logs ?
+9:30 PM
+Sira, Amardeep
+
+QA/dev
++++++
+
+can you do a quick test for web40w40m3 (ext) and web40w48m3 (int) - akamai is disabled on those and just want to check if they content are coming up
+======
+Amardeep,
+
+checking , let me see if I can find any for espsvc
+9:30 PM
+Tran, Nhan
+
+looks like this app writes to s2_esp_webapp.log
+9:30 PM
+Sira, Amardeep
+are the other apps on the instance coming up ok ?
+9:31 PM
+Sira, Amardeep
+
+yea
+everything is good except espsvc
+9:31 PM
+Tran, Nhan
+
+Veera,
+
+Caused by: org.springframework.beans.factory.parsing.BeanDefinitionParsingException: Configuration problem: Failed to import bean definitions from URL location [file:/etrade/prd-ollcp-s2-espsvc/config/si-services.xml]
+Offending resource: class path resource [s2-si-config.xml]; nested exception is org.springframework.beans.factory.BeanDefinitionStoreException: Unexpected exception parsing XML document from URL [file:/etrade/prd-ollcp-s2-espsvc/config/si-services.xml]; nested exception is java.lang.NullPointerException
+at org.springframework.beans.factory.parsing.FailFastProblemReporter.error(FailFastProblemReporter.java:68)
+at org.springframework.beans.factory.parsing.ReaderContext.error(ReaderContext.java:85)
+at org.springframework.beans.factory.parsing.ReaderContext.error(ReaderContext.java:76)
+at org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader.importBeanDefinitionResource(DefaultBeanDefinitionDocumentReader.java:245)
+at org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader.parseDefaultElement(DefaultBeanDefinitionDocumentReader.java:196)
+at org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader.parseBeanDefinitions(DefaultBeanDefinitionDocumentReader.java:181)
+at org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader.doRegisterBeanDefinitions(DefaultBeanDefinitionDocumentReader.java:140)
+at org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader.registerBeanDefinitions(DefaultBeanDefinitionDocumentReader.java:111)
+at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.registerBeanDefinitions(XmlBeanDefinitionReader.java:493)
+any changes for /etrade/prd-ollcp-s2-espsvc/config/si-services.xml ?
+9:33 PM
+Tran, Nhan
+
+Yes looking gme few mins
+did you do any baseline today
+9:33 PM
+Chandu, Veera
+
+yes
+9:33 PM
+Tran, Nhan
+
+hoom that might be the cause
+9:33 PM
+Chandu, Veera
+
+we have baseline for EEO
+9:34 PM
+Tran, Nhan
+
+ther eis some change promoted in that file for crc
+lm take a look there
+gme a sec
+lm plug that off
+9:34 PM
+Chandu, Veera
+
+=======
+
+QA/dev
++++++
+
+can you do a quick test for web40w40m3 (ext) and web40w48m3 (int) - akamai is disabled on those and just want to check if they content are coming up
+
+let me know if those two nodes content are up
+9:34 PM
+Tran, Nhan
+
+Checking
+https://web40w48m3.corp.etradegrp.com:8442/e/t/eeo/portallandingui?crcCorpId=2
+9:35 PM
+Sivanandam, Arun Kumar
+
+The page you requested is not available.
+nodes not loading
+9:35 PM
+Srinivasan, Chandrasekar
+
+thanks let me check
+9:35 PM
+Tran, Nhan
+1/19/16 00:35:04 ETTRACERAPI: ERROR: >>>>>>>>>>>>>>> EXCEPTION >>>>>>>>>>>>>>>
+Exception Class: java.io.FileNotFoundException
+Exception Msg: file:/etrade/pkgs/linux/intel/af_app_eeo/20161115.0/WEB-INF/lib/af-apps-user-4.5.jar!/config/resource-bundles/CustomDisplayNodes.properties (No such file or directory)
+Application Msg: JSPTreeBuilder: Couldn't find the property file for custom widgets
+<<<<<<<<<<<<<<< EXCEPTION <<<<<<<<<<<<<<<
+The Stack Trace follows:
+
+java.io.FileNotFoundException: file:/etrade/pkgs/linux/intel/af_app_eeo/20161115.0/WEB-INF/lib/af-apps-user-4.5.jar!/config/resource-bundles/CustomDisplayNodes.properties (No such file or directory)
+at java.io.FileInputStream.open(Native Method)
+at java.io.FileInputStream.<init>(FileInputStream.java:120)
+at java.io.FileInputStream.<init>(FileInputStream.java:79)
+at etrade.framework.display.JSPTreeBuilder.<clinit>(JSPTreeBuilder.java:120)
+at etrade.framework.dom.TemplateFactory.createDisplayTree(TemplateFactory.java:706)
+at etrade.framework.dom.DisplayTreeCacheLoader.load(DisplayTreeCacheLoader.java:49)
+at net.sf.ehcache.Cache.loadWithRegisteredLoaders(Cache.java:2935)
+at net.sf.ehcache.Cache.access$100(Cache.java:106)
+at net.sf.ehcache.Cache$1.run(Cache.java:2900)
+at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:441)
+at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+at java.lang.Thread.run(Thread.java:662)
+9:36 PM
+Tran, Nhan
+any dev can help on that?
+9:37 PM
+Tran, Nhan
+===========
+
+11/19/16 00:35:04 EEOQATESTDELETE@10.21.87.24{CDEE3A25914626BBF9EBD0716A6C62A7.tomcat1}TP-Processor3 TemplateFactory: ERROR: TemplateFactory: failed to load template [templates/eeo_site08/projects/eeo/portallandingui.xsl]. Will try other version.
+11/19/16 00:35:04 EEOQATESTDELETE@10.21.87.24{CDEE3A25914626BBF9EBD0716A6C62A7.tomcat1}TP-Processor3 TemplateFactory: ERROR: TemplateFactory: failed to load template [templates/eeo_site08/projects/eeo/portallandingui.xsl]. Will try other version.
+11/19/16 00:35:04 EEOQATESTDELETE@10.21.87.24{CDEE3A25914626BBF9EBD0716A6C62A7.tomcat1}TP-Processor3 TemplateFactory: ERROR: TemplateFactory: failed to load template [templates/null/projects/eeo/portallandingui.xsl]. Will try other version.
+11/19/16 00:35:04 EEOQATESTDELETE@10.21.87.24{CDEE3A25914626BBF9EBD0716A6C62A7.tomcat1}TP-Processor3 TemplateFactory: ERROR: TemplateFactory: failed to load template [templates/projects/eeo/portallandingui.xsl]. Will try other version.
+11/19/16 00:35:04 EEOQATESTDELETE@10.21.87.24{CDEE3A25914626BBF9EBD0716A6C62A7.tomcat1}TP-Processor3 ETTRACERAPI: ERROR: DisplayNode passed back to DisplayManager was NULL, getting pnf=shared/common/pagenotfound.html
+11/19/16 00:35:04 EEOQATESTDELETE@10.21.87.24{CDEE3A25914626BBF9EBD0716A6C62A7.tomcat1}TP-Processor3 TemplateFactory: ERROR: TemplateFactory: failed to load template [templates/eeo_site08/shared/common/pagenotfound.html]. Will try other version.
+11/19/16 00:35:04 EEOQATESTDELETE@10.21.87.24{CDEE3A25914626BBF9EBD0716A6C62A7.tomcat1}TP-Processor3 TemplateFactory: ERROR: TemplateFactory: failed to load template [templates/eeo_site08/shared/common/pagenotfound.html]. Will try other version.
+11/19/16 00:35:04 EEOQATESTDELETE@10.21.87.24{CDEE3A25914626BBF9EBD0716A6C62A7.tomcat1}TP-Processor3 TemplateFactory: ERROR: TemplateFactory: failed to load template [templates/null/shared/common/pagenotfound.html]. Will try other version.
+11/19/16 00:35:04 ETTRACERAPI: ERROR: >>>>>>>>>>>>
+9:38 PM
+Tran, Nhan
+
+Nhan - can you check is there any file under packages/af_app_eeo/templates/eeo_site08/
+9:38 PM
+Varadarajan, Selvam
+
+[ntran5@prd-eeo-app-int-web40w48m3] ls -lrth packages/af_app_eeo/templates/eeo_site08/
+total 0
+nope
+9:38 PM
+Tran, Nhan
+
+the af-app-eeo package should contain the eeo_site08 content
+9:39 PM
+/etrade/pkgs/linux/intel/af_app_eeo/20161115.0/templates/eeo_site08
+the package itself yes
+but I don't see the root
+sorry
+no there's no file in package itself
+[ntran5@prd-eeo-app-int-web40w48m3] ls -lrth /etrade/pkgs/linux/intel/af_app_eeo/20161115.0/templates/eeo_site08
+total 0
+9:39 PM
+Tran, Nhan
+
+its look the package is not created with eeo_site08.. we need to call SCM team
+9:39 PM
+Varadarajan, Selvam
+
+:(
+9:40 PM
+Tran, Nhan
+
+it is the same package deployed on UAT
+why would it be different ?
+9:40 PM
+let me check uat then
+9:40 PM
+Tran, Nhan
+
+selvam, call Kalpana
+9:40 PM
+[ntran5@uat-eeo-app-int-uat147w92m7] ls -rlth /etrade/pkgs/linux/intel/af_app_eeo/20161115.0/templates/eeo_site08
+total 8.0K
+drwxr-xr-x 4 etrade etrade 4.0K Nov 15 07:20 shared
+drwxr-xr-x 3 etrade etrade 4.0K Nov 15 07:20 projects
+yea I see in UAT
+9:41 PM
+Tran, Nhan
+
+are you using same package ?
+9:41 PM
+[ntran5@prd-eeo-app-int-web40w48m3] ls -lrth /etrade/pkgs/linux/intel/af_app_eeo/20161115.0/templates/eeo_site08
+9:42 PM
+Tran, Nhan
+yep
+same package
+9:43 PM
+Tran, Nhan
+
+aless they doing many re-build packages
+9:43 PM
+Tran, Nhan
+
+and never sync to the correct
+let me do a force on 1 node
+sometimes scm script sync got lazy
+9:43 PM
+Tran, Nhan
+
+Veera, are you able to confirm on the packaging for the esp service ?
+9:44 PM
+Sira, Amardeep
+
+Rajeev,
+force package again, still don't see it
+9:46 PM
+Tran, Nhan
+
+gme few mins
+9:46 PM
+Chandu, Veera
+
+getting hold of scmteam for the af_app_eeo pkg issue
+9:46 PM
+Varadarajan, Selvam
+
+why it would be there on UAT but not available on prod ?
+if it is same package
+can you check md5 ?
+9:47 PM
+1. they patched - manually
+2. they download the pkg from another pkg-server
+I tried one of the main one -adm1m7
+9:48 PM
+Tran, Nhan
+
+[vchandu@prd-ollcp-s2-espsvc-tp119w48m3] edna -c status|grep NG
+[vchandu@prd-ollcp-s2-espsvc-tp119w48m3]
+Nhan while baselining you have pulled the crc changes that have gone with todays uat roll
+That is the cause of the issue
+9:48 PM
+Chandu, Veera
+
+murali from scmteam will login
+9:49 PM
+Varadarajan, Selvam
+
+Pulled back the changes
+Sending em.properties
+Sending si-services.xml
+Transmitting file data ..
+Committed revision 21733.
+http://viewvc.etrade.com/cgi-bin/viewvc.cgi/edna-cfg/branches/prd_gold_stage/s2/espsvc/config/si-services.xml?r1=21334&r2=21649
+9:49 PM
+Chandu, Veera
+
+well, we need to note that they can't push anything new to UAT during the EEO roll week
+9:49 PM
+Tran, Nhan
+
+http://viewvc.etrade.com/cgi-bin/viewvc.cgi/edna-cfg/branches/prd_gold_stage/s2/espsvc/config/em.properties?r1=10600&r2=21648
+9:49 PM
+Chandu, Veera
+
+thanks Veera
+let me re-roll set 1 espsvc
+9:50 PM
+Tran, Nhan
+
+unfortunately the crc and eeo svc's are codeploying on same node
+and their uat testing will get affected if changes dont go on time
+9:50 PM
+Chandu, Veera
+the better soln may be to pull the eeo svc's on to different new instance.
+9:51 PM
+Chandu, Veera
+
+cut budget - we share everything lol
+9:52 PM
+Tran, Nhan
+
+:-)
+9:52 PM
+Chandu, Veera
+
+Veera it seems you are in demand tonight, Dhanesh is waiting for you
+9:53 PM
+Buch, Rita
+
+yes im with him on other IM
+9:53 PM
+Chandu, Veera
+
+:-O
+9:54 PM
+Buch, Rita
+
+well, this next version has it /etrade/pkgs/linux/intel/af_app_eeo/20161118.0/templates/eeo_site08
+20161118.0
+but we are rolling 20161115.0 tonight
+10:00 PM
+Tran, Nhan
+espsvc set 1 is good now
+so only left is the package issue
+10:05 PM
+Tran, Nhan
+
+found the issue
+give me 2 mins
+will transfer the correct pkg
+10:11 PM
+muralisankar.mayilvaganan@etrade.com
+
+i have pushed the pkgs to adm1m7
+[uat:etbuild:batch:eeonline-j8:bld102w100m7] rpm -qlp http://adm1m7.etrade.com/af_app_eeo-20161115.0-0.x86_64.rpm | grep eeonline.html
+/etrade/pkgs/linux/intel/af_app_eeo/20161115.0/templates/eeo_site08/shared/skins/eeo/eeonline.html
+[uat:etbuild:batch:eeonline-j8:bld102w100m7]
+i could see the eeo_site08
+i have intiated the pkg transfer to lxadm0m3
+as well
+will let you know once done
+10:18 PM
+muralisankar.mayilvaganan@etrade.com
+i have transferred all the below pkgs
+10:19 PM
+muralisankar.mayilvaganan@etrade.com
+
+we need to recreate af_app_eeo and af_web_eeo
+10:19 PM
+Varadarajan, Selvam
+
+af_app_eeo-20161115.0-0.x86_64.rpm 100% 87MB 4.1MB/s 00:21
+af_web_eeo-20161115.0-0.x86_64.rpm 100% 74MB 4.1MB/s 00:18
+af_web_eeo-20161115.0-0.i386.rpm 100% 74MB 4.1MB/s 00:18
+eeAdminServer-20161115.0-0.x86_64.rpm 100% 104MB 4.2MB/s 00:25
+eeBusinessServer-20161115.0-0.x86_64.rpm 100% 99MB 4.3MB/s 00:23
+eeDEServer-20161115.0-0.x86_64.rpm 100% 102MB 4.2MB/s 00:24
+eeReportServer-20161115.0-0.x86_64.rpm 100% 102MB 4.1MB/s 00:25
+eeTaskManagerServer-20161115.0-0.x86_64.rpm 100% 99MB 4.1MB/s 00:24
+eeCleanup-20161115.0-0.x86_64.rpm 100% 25MB 5.1MB/s 00:05
+eeTestTool-20161115.0-0.x86_64.rpm 100% 14KB 13.7KB/s 00:00
+eeTaxServer-20161115.0-0.x86_64.rpm
+recreate?
+10:19 PM
+muralisankar.mayilvaganan@etrade.com
+can you please check the pkg which is there in adm1m7 now and see if everything looks good
+10:20 PM
+muralisankar.mayilvaganan@etrade.com
+
+let me check
+10:20 PM
+Tran, Nhan
+other packages were bad?
+10:21 PM
+Tran, Nhan
+
+all the pkgs were respun from the old bld node and pushed to adm1m7
+by the re-spin job
+10:23 PM
+muralisankar.mayilvaganan@etrade.com
+so they might also be wrong..
+that's why pushed all the pkgs from the correct build box
+10:24 PM
+muralisankar.mayilvaganan@etrade.com
+
+web41w40m3 (ext) and web42w48m3(int)
+can you test on those two nodes
+they have akamai off
+10:40 PM
+Tran, Nhan
+
+QA/dev?
+10:42 PM
+Tran, Nhan
+
+checking
+10:42 PM
+Narendran, Maria Francis Shyam
+
+if they are loading up
+then set is rolled
+10:46 PM
+Tran, Nhan
+1
+10:47 PM
+Tran, Nhan
+
+nodes are coming up..
+10:49 PM
+Srinivasan, Chandrasekar
+
+search failing
+10:49 PM
+Sivanandam, Arun Kumar
+
+Market Snapshot not loading
+10:49 PM
+Srinivasan, Chandrasekar
+
+both internal and external displays search error
+10:49 PM
+Narendran, Maria Francis Shyam
+
+nhan - can you share the tomcat1.log from web42w48m3
+10:50 PM
+Varadarajan, Selvam
+
+what's your username
+let me give you access
+10:50 PM
+Tran, Nhan
+
+svarada1
+10:50 PM
+Varadarajan, Selvam
+
+ok
+done
+10:50 PM
+Tran, Nhan
+try log in
+10:51 PM
+Tran, Nhan
+
+able to login..
+10:53 PM
+Varadarajan, Selvam
+Hi Nhan - we are not able to check the logs from log search for the m3 nodes
+we need to check logs in s2:common nodes
+10:59 PM
+Varadarajan, Selvam
+
+you know which s2:common nodes you need?
+I'll give you access
+11:00 PM
+Tran, Nhan
+
+is all s2 m3 nodes on the s2 m3 vip?
+11:00 PM
+Varadarajan, Selvam
+
+from aag looks like all m3 are out of vip
+11:01 PM
+Payyalore Venkatachalam, Vidhya Meenakshi
+
+they mix and match
+for the vip
+11:01 PM
+Tran, Nhan
+example [adm:etadm:app:occadmin:adm0m3] etns status jws2w48m3
+lbint52m3: jws2w48m3: DISABLED
+
+lbint48m3: jws2w48m3: ENABLED
+11:02 PM
+Tran, Nhan
+
+i see 48 and 52m3 both showing up in red in AAG
+11:02 PM
+Payyalore Venkatachalam, Vidhya Meenakshi
+
+ok let me give you the rolled nodes
+11:02 PM
+Tran, Nhan
+
+can you give me access for all w48m3 s2 nodes
+11:02 PM
+Varadarajan, Selvam
+
+yea
+11:02 PM
+Tran, Nhan
+jws6w48m3.etrade.com	svarada1	2016-11-19	2016-11-27	eeo roll
+jws5w48m3.etrade.com	svarada1	2016-11-19	2016-11-27	eeo roll
+jws4w48m3.etrade.com	svarada1	2016-11-19	2016-11-27	eeo roll
+jws3w48m3.etrade.com	svarada1	2016-11-19	2016-11-27	eeo roll
+jws2w48m3.etrade.com	svarada1	2016-11-19	2016-11-27	eeo roll
+try now selvam
+11:07 PM
+Tran, Nhan
+
+ok
+11:07 PM
+Varadarajan, Selvam
+
+Nhan, can you enable debug on the this node - web42w48m3 ( log4j.category.com.etrade.ee.webclient.common=DEBUG, EEO1 ) on config/etrade.log4j.properties
+11:10 PM
+Sivanandam, Arun Kumar
+
+ok
+11:10 PM
+Tran, Nhan
+done
+11:11 PM
+Tran, Nhan
+need to restart the instance?
+11:12 PM
+Tran, Nhan
+
+no
+11:12 PM
+Sivanandam, Arun Kumar
+
+Nhan - did we deploy the af_app_eeo, eeAdminServer, eeBusinessSever after murali pushed new pkgs?
+11:13 PM
+Varadarajan, Selvam
+
+the reported issue was only af_app_eeo
+
+eeAdminServer, eeBusinessSever was already deployed
+11:15 PM
+Tran, Nhan
+
+can you delpoy all the packages again in all the w48m3 nodes
+including tms
+11:15 PM
+Varadarajan, Selvam
+
+so we need to kill tms
+and re-roll everything again
+oh boy...
+so we ok to spend another 1-2 hour to re-roll ?
+11:16 PM
+Tran, Nhan
+
+we have failures in app
+11:16 PM
+Payyalore Venkatachalam, Vidhya Meenakshi
+
+the tms should be easy to stop, no client jobs running as it was in QA mode
+11:17 PM
+ok let me know if I can kill tms now and force stage the packages again
+the force packages take a little longer
+removes thousand files, download, and install then confirm...etc
+11:17 PM
+Tran, Nhan
+it's not like one click
+11:18 PM
+Tran, Nhan
+
+i think we need it
+11:18 PM
+ok let me kill tms now
+w48m3
+11:18 PM
+Tran, Nhan
+
+hi Nhan, any update ?
+11:57 PM
+it is re-rolling
+umm another 10-15 minutes
+11:58 PM
+Tran, Nhan
+
+ok, thanks
+11:58 PM
+wish starbucks open this late
+11:58 PM
+Tran, Nhan
+a nice cappuccino would be awesome
+double shots
+11:59 PM
+Tran, Nhan
+November 19, 2016
+
+I will buy you one if you can finish set A SOONNNNN
+12:00 AM
+Shaw, Kathy
+
+lol
+12:00 AM
+Tran, Nhan
+
+Chandru ??
+12:01 AM
+Yes Rajeeev
+12:01 AM
+Srinivasan, Chandrasekar
+
+i hear you are very close to where Nhan is
+12:01 AM
+Chandra , go buy one for Nhan
+12:01 AM
+Shaw, Kathy
+and make sure Nhan finish the set A SOOOOOONN
+12:02 AM
+Shaw, Kathy
+
+sure
+12:02 AM
+Srinivasan, Chandrasekar
+
+lol I don't think QA team likes me, I always blame them for roll nights - reason why roll takes so long
+12:02 AM
+Tran, Nhan
+I think on;ly Preetam from webqa likes me
+webdev qa*
+because webdev changes are better now
+12:03 AM
+Tran, Nhan
+
+What are you talking about? EEO QA love you
+12:03 AM
+Shaw, Kathy
+
+but tsp suck lol
+12:03 AM
+Tran, Nhan
+
+EEO tech love u, just finsh set A SOOON
+12:03 AM
+Shaw, Kathy
+
+no QA or tech. EEO team will support you for the roll.
+12:04 AM
+Srinivasan, Chandrasekar
+
+ok roll 1 is done, waiting for nagios tests ~ 3 mintues
+12:06 AM
+Tran, Nhan
+web41w40m3 (ext) and web42w48m3(int)
+those two nodes have akamai off
+12:07 AM
+Tran, Nhan
+
+testing
+12:07 AM
+Varadarajan, Selvam
+
+nodes are coming up and page is loading fine
+12:11 AM
+Narendran, Maria Francis Shyam
+
+ok infurm
+12:11 AM
+Srinivasan, Chandrasekar
+inform*
+12:12 AM
+Srinivasan, Chandrasekar
+
+Nhan, got defintelly will get your cappuccino when i get there
+12:13 AM
+Shaw, Kathy
+
+:)
+12:13 AM
+Tran, Nhan
+
+Shall we start testing?
+12:14 AM
+Srinivasan, Chandrasekar
+
+please start
+12:15 AM
+Varadarajan, Selvam
+
+Gud Morning chandru :)
+12:15 AM
+Payyalore Venkatachalam, Vidhya Meenakshi
+
+while you test PRD, i'm going re-roll cat
+need to force those packages again for CAT
+~ 10 minutes for CAT
+12:15 AM
+Tran, Nhan
+
+yes
+12:15 AM
+Shaw, Kathy
+
+VGM..
+12:15 AM
+Srinivasan, Chandrasekar
+
+or ~20
+12:15 AM
+Tran, Nhan
+
+QA should test prod
+first
+12:15 AM
+Shaw, Kathy
+QA can test CAT once Nhan confirm
+12:16 AM
+Shaw, Kathy
+
+Nhan , we are not seeing logs show up for m3 in kibana
+can you please check ?
+12:26 AM
+Payyalore Venkatachalam, Vidhya Meenakshi
+
+for the logsearch, umm they have some issues with logsearch today. I'm not sure what happened . I can call the dev to fix it but I don't think they will be available around this time
+I can provide you temp acceess
+12:27 AM
+Tran, Nhan
+
+web40w48m3 node is not loading properly..
+12:27 AM
+Srinivasan, Chandrasekar
+
+which node you need?
+web40w48m3 = akamai on
+you need to test on web40w48m3 ?
+web41w40m3 (ext) and web42w48m3(int) _ these nodes have akamai off
+12:27 AM
+Tran, Nhan
+
+okay
+12:28 AM
+Srinivasan, Chandrasekar
+
+Nhan can you do i for the rolled nodes ?
+QA would need to test all of them
+12:28 AM
+Payyalore Venkatachalam, Vidhya Meenakshi
+reg the logsearch issue actually we would need log search fixed since team would be monitoring prod post the roll .
+12:29 AM
+Payyalore Venkatachalam, Vidhya Meenakshi
+
+can it be wait another 4-5 hours ? they will up around that time on saturday morning
+it's 3:30 am est now
+12:30 AM
+Tran, Nhan
+
+let me check with Rajeev
+12:31 AM
+Payyalore Venkatachalam, Vidhya Meenakshi
+
+web43w48m3 is also not loading
+12:32 AM
+Narendran, Maria Francis Shyam
+
+akamai on that node
+web41w40m3 (ext) and web42w48m3(int) _ these nodes have akamai off
+12:32 AM
+Tran, Nhan
+we can test akamai on set 2.
+set 2 will have everything akamai.
+12:33 AM
+Tran, Nhan
+
+can u turn it off all on set1 nodes
+12:33 AM
+Payyalore Venkatachalam, Vidhya Meenakshi
+
+is akamai off on all the set 1 (rolled app nodes) ?
+12:33 AM
+?
+12:33 AM
+Payyalore Venkatachalam, Vidhya Meenakshi
+
+ok give me another few minutes then
+12:33 AM
+Tran, Nhan
+ok
+set 1 nodes akamai are off
+12:40 AM
+Tran, Nhan
+feedback - I guess we have to test set 1 nodes again after akamai are on? (after set 2)
+so we doing double tests after test 2?
+12:43 AM
+Tran, Nhan
+
+CAT is done
+forced packages again and re-rolled CAT
+12:45 AM
+Tran, Nhan
+
+Thx Nhan
+12:57 AM
+Shaw, Kathy
+
+so far we good?
+1:21 AM
+Tran, Nhan
+
+yes
+1:22 AM
+Shaw, Kathy
+
+yes
+1:22 AM
+Srinivasan, Chandrasekar
+
+thanks :)
+1:22 AM
+Tran, Nhan
+
+set 1 is a go
+1:22 AM
+Narendran, Maria Francis Shyam
+
+ok
+starting pre-roll set 2
+1:23 AM
+Tran, Nhan
+
+OK
+1:24 AM
+Lee, Kevin
+
+Nhan, can u pls change the 52 to QA mode
+1:28 AM
+Shaw, Kathy
+
+yes
+1:28 AM
+Tran, Nhan
+
+Nhan , we are pulling the latest packages again right :)
+1:30 AM
+Payyalore Venkatachalam, Vidhya Meenakshi
+
+yes, all the packages are forced again
+for set 2
+1:30 AM
+Tran, Nhan
+
+are we done with the restarts on w52m3 ?
+ok
+1:30 AM
+Payyalore Venkatachalam, Vidhya Meenakshi
+
+Nhan - you need to issue second stop on app37w52m3 and app36w52m3 since they are having stale threads
+1:43 AM
+Varadarajan, Selvam
+
+ok
+1:43 AM
+Tran, Nhan
+
+in app35w52m3, QCOM sandbox is running. It will take another 1.15 hr to complete. Since the job is recoverable we can issue second stop on app35w52m3 also
+1:44 AM
+Varadarajan, Selvam
+
+ok
+1:44 AM
+Tran, Nhan
+
+qcom sb average time is 2 hrs
+1:46 AM
+Paramasivam, Jaya Prakash
+
+QA/DEV can you test the vip now and make sure it is up with akamai
+some of my tests are failing on the vip
+probably need to adjust to the new changes , but please do a vip now to make sure
+1:54 AM
+Tran, Nhan
+
+we have the 48m3 nodes alone on vip ?
+1:55 AM
+Payyalore Venkatachalam, Vidhya Meenakshi
+
+yea
+1:55 AM
+Tran, Nhan
+
+okay
+will verify
+1:55 AM
+Payyalore Venkatachalam, Vidhya Meenakshi
+
+are the s2 main VIP enabled with m3?
+w48m3
+1:57 AM
+Varadarajan, Selvam
+
+jobs are in pending state in VIP
+1:58 AM
+Narendran, Maria Francis Shyam
+
+48m3 tms are in non qa
+so would not pick
+and vip hsa only 48m3 app/s2 nodes
+let us submit job from 52m3 once Nhan confirms
+1:59 AM
+Payyalore Venkatachalam, Vidhya Meenakshi
+
+yea, my question is , is the vip loading with contents
+2:00 AM
+Tran, Nhan
+
+yes
+2:00 AM
+Narendran, Maria Francis Shyam
+
+like new images/texts..
+thanks
+2:00 AM
+Tran, Nhan
+
+its loading
+2:00 AM
+Narendran, Maria Francis Shyam
+
+so Akamai is working good
+ok set 2 is still rolling, once they are done then you canv erify
+will update back once set 2 is done
+2:00 AM
+Tran, Nhan
+then half of sysops tasks need to adjust to the new pages in eeo
+2:01 AM
+Tran, Nhan
+
+which new pages ?
+2:02 AM
+sorry I meant changes with new codes
+2:02 AM
+Tran, Nhan
+
+some solarwind tests make sure it is the same for the last tests (few months ago?)
+size,font,images..etc
+and some tests just test on certain elements on the pages
+2:03 AM
+Tran, Nhan
+so right now, the tests are half/half passing failing
+But I believe in QA eyes , that the pages are up and running
+2:04 AM
+Tran, Nhan
+
+we have not changed any existing pages for solar winds to fail
+can you share the URL ?
+2:05 AM
+sure
+2:05 AM
+Tran, Nhan
+http://atl1webmon1.corp.etradegrp.com/Orion/SEUM/TransactionDetails.aspx?NetObject=T:1053
+http://atl1webmon1.corp.etradegrp.com/Orion/SEUM/TransactionDetails.aspx?NetObject=T:586
+Ok set 2 is rolled
+2:06 AM
+Tran, Nhan
+
+we can start testing
+>
+?
+2:07 AM
+Narendran, Maria Francis Shyam
+
+from my side - yes. dev ?
+2:08 AM
+Tran, Nhan
+
+yes
+2:08 AM
+Payyalore Venkatachalam, Vidhya Meenakshi
+
+Scheduled Maintenance
+
+Friday 11/18/2016 from 9PM until Saturday 11/19/2016 3AM ET there will be a scheduled maintenance. Period Close jobs in Equity Edge Online will pend until the maintenance is completed. There will be no other down time.
+
+
+change 3am to 6 am est :P
+heheheehe
+2:21 AM
+Tran, Nhan
+
+Sad
+2:22 AM
+Shaw, Kathy
+
+we all agree it was scm build release team LOL
+2:22 AM
+Tran, Nhan
+and Rita
+heeheh
+2:23 AM
+Tran, Nhan
+
+yeah blame on Rita
+her team does not want to give a GO
+2:23 AM
+Shaw, Kathy
+
+HELLO
+2:23 AM
+Buch, Rita
+THIS IS A SECOND LONG......................................NIGHT FOR ME
+2:24 AM
+Buch, Rita
+
+last night roll almost like tonight
+2:25 AM
+Tran, Nhan
+
+YES
+2:25 AM
+Buch, Rita
+
+etpro was a pain
+lol
+2:25 AM
+Tran, Nhan
+
+crc was double pain
+2:25 AM
+Buch, Rita
+
+Ajoy or a Joy
+heeheh
+2:25 AM
+Tran, Nhan
+
+Hahaha
+2:25 AM
+Buch, Rita
+
+suprisely tsp was not so bad last night
+2:26 AM
+Tran, Nhan
+
+Kathy is asking why Nhan is so happy, i said becoz he will get rid of eeo folks pretty soon
+2:26 AM
+Buch, Rita
+
+yea :), I was suppose to train a new guy to eeo roll
+2:26 AM
+Tran, Nhan
+but he's out tonight - lucky guy
+2:27 AM
+Tran, Nhan
+next year, you guys will have to deal with him probably summer - which he should catch up soon
+he's nicer than me for sure
+lol
+he's patient too - that's a must for eeo roll~ LOL
+2:28 AM
+Tran, Nhan
+
+Why can u continue be there for EEO
+2:29 AM
+Shaw, Kathy
+
+TSP going be big and more painful. I need to get them straight out with the new instances every month
+2:29 AM
+Tran, Nhan
+
+Set 2 is a Go
+2:29 AM
+Narendran, Maria Francis Shyam
+
+and stock plan with tsp/api super pain
+2:29 AM
+Tran, Nhan
+along with mobile
+need to standard those rolls
+2:30 AM
+Tran, Nhan
+
+Pls change node to normal
+2:30 AM
+Shaw, Kathy
+
+ok
+2:30 AM
+Tran, Nhan
+
+QA will test from VIP
+|
+2:30 AM
+Shaw, Kathy
+
+done
+2:33 AM
+Tran, Nhan
+Varadarajan, Selvam - can you also submit remedy force ticket for those access
+those audit people will come after me
+2:35 AM
+Tran, Nhan
+
+ok
+2:35 AM
+Varadarajan, Selvam
+
+still need the job to pay bills lol
+2:35 AM
+Tran, Nhan
+
+nhan
+2:36 AM
+Buch, Rita
+
+yes
+2:36 AM
+Tran, Nhan
+
+on retail
+we have this for NOC release notes
+https://wiki.corp.etradegrp.com/index.php/Production_Release_Notes_2016-11-18
+sorry it wa 11-17
+2:36 AM
+Buch, Rita
+
+ok
+2:36 AM
+Tran, Nhan
+
+do we have anythong like that for eeo?
+2:36 AM
+Buch, Rita
+
+i just changed the date, hoping NOC will update the page.
+2:36 AM
+Srinivasan, Chandrasekar
+
+for now it is blank
+2:37 AM
+Buch, Rita
+
+normal mode testing cmpleted
+2:37 AM
+Narendran, Maria Francis Shyam
+
+Time to call Geoff..
+Is Vivek around?
+2:37 AM
+Srinivasan, Chandrasekar
+
+no
+2:37 AM
+Buch, Rita
+
+ok let me call him
+Calling Geoff
+2:37 AM
+Srinivasan, Chandrasekar
+
+I'm not sure about that Rita, I think that is control by remedy CM team
+2:37 AM
+Tran, Nhan
+
+ok thanks
+2:38 AM
+Buch, Rita
+
+Chandler, Kevin will send email to Geoff as well
+2:38 AM
+Sivanandam, Arun Kumar
+
+Arun told me to send Geoff an email
+I just sent it but you can call him also Chandru
+2:38 AM
+Lee, Kevin
+
+chandru :-) typo.
+2:38 AM
+Sivanandam, Arun Kumar
+
+Thank you everyone
+2:39 AM
+Lee, Kevin
+
+Geoff is signing in...
+2:39 AM
+Srinivasan, Chandrasekar
+
+thanks all
+2:41 AM
+Varadarajan, Selvam
+
+Thanks everyone
+2:45 AM
+Sivanandam, Arun Kumar
+
+Thanks, good night
+2:45 AM
+Lee, Kevin
+
+thanks all
+good night/morning
+2:45 AM
+Tran, Nhan
+
+thanks
+2:45 AM
+Buch, Rita
+
+Chandrasekar, we should go eat breakfast now? heeheh
+2:45 AM
+Tran, Nhan
+~6 am est
+2:46 AM
+Tran, Nhan
+
+Have a good breakfast
+2:46 AM
+Buch, Rita
+bye- we need some sleep
+2:47 AM
+Buch, Rita
+
+bye. Thanks all
+2:47 AM
+November 21, 2016

@@ -1,0 +1,16 @@
+type Note {
+    id: ID!
+    title: String!
+    content: String!
+}
+
+
+# The Root Query for the application
+type Query {
+    searchNotes(count: Int, offset: Int): [Note]!
+}
+
+# The Root Mutation for the application
+type Mutation {
+    addNote(title: String!, content: String!) : Note!
+}

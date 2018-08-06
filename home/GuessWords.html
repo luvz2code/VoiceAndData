@@ -1,0 +1,82 @@
+<html>
+<head>
+<title>Guess the right word game !!</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+    <h2>
+        I have picked a random word from the dictionary. I will give you one clue word at a time which will help you guess the word i have picked. <br/>
+        Your goal is to guess the word i have picked in as few clues as possible. <br/>
+        Click the 'Get Clue' button to releal the next clue. <br/>
+        Type your guess in the field labeled 'Your Guess' and click the check button. <br/>
+        <br/>
+        Enjoy !! All the Best !!! 
+        <br/>
+    </h2>
+    <div>
+        <button type="button" id="getClue">Get Clue</button>
+        <br/>
+        <br/>
+        <label>Your guess: </label><input type="text" id='yourGuess'/><button type='button' id='check'>Check</button>
+        <br/>
+        <br/>
+        <label id="status"></label>
+        <br/>
+        <br/>
+        <label># of clues used: </label><label id='numOfClues'></label>
+        <br/>
+        <label># of guesses: </label><label id='numberOfGuesses'></label>
+        <br/>
+        <br/>
+        <div id='clues'>
+        </div>
+    </div>
+
+
+<script>
+    var words = ['butterfly','ocean','beach','cat','robot','hat'];
+    var num = Math.floor(Math.random() * words.length);
+    var wordToGuess = words[num];
+    var relatedWords = {};
+    var clueIndex = 0;
+    var numberOfGuesses = 0;
+
+    console.log(wordToGuess);
+
+    var urlString = "https://api.datamuse.com/words?rel_jjb=" + wordToGuess;
+    console.log(urlString);
+
+    $.get(urlString,
+        function(data, status){
+            console.log("Data: " + data + "\nStatus: " + status);
+            if(status == "success") {
+                relatedWords = data;
+                // console.log( relatedWords );
+                console.log("First word: " + relatedWords[0].word + " Score: " + relatedWords[0].score);
+            }
+        }
+    );
+</script>
+
+<script>
+    $("#getClue").click( function() {
+        console.log("Word: " + relatedWords[clueIndex].word + " Score: " + relatedWords[clueIndex].score);
+        $("#clues").append( relatedWords[clueIndex].word + "<br/>");
+        clueIndex++;
+        $("#numOfClues").text(clueIndex);
+    });
+
+    $("#check").click( function() {
+        console.log($("#yourGuess").val());
+        if ($("#yourGuess").val() == wordToGuess) {
+            $("#status").text("You guessed it right. You win. Reload page to play again.");
+        }
+        else {
+            $("#status").text("Sorry, that is not the word i have in mind. Try another guess or get another clue.");
+            numberOfGuesses++;
+            $("#numberOfGuesses").text(numberOfGuesses);
+        }
+    });    
+</script>
+</body>
+</html>

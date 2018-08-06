@@ -1,0 +1,7 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Mon Mar 12 18:02:08 PDT 2018
+https\://repo.spring.io/snapshot/.error=
+https\://repo.spring.io/milestone/.lastUpdated=1520902928617
+https\://repo.spring.io/snapshot/.lastUpdated=1520902928200
+@default-central-https\://repo.maven.apache.org/maven2/.lastUpdated=1520899897646
+https\://repo.maven.apache.org/maven2/.error=Could not transfer artifact org.springframework.boot\:spring-boot-starter-parent\:pom\:2.0.0.M4 from/to central (https\://repo.maven.apache.org/maven2)\: Connection reset
